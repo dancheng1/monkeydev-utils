@@ -95,7 +95,6 @@
 		2630864C25F74C2100FCB9AD /* selectortramps.mac */ = {isa = PBXFileReference; lastKnownFileType = text; path = selectortramps.mac; sourceTree = "<group>"; };
 		2630864E25F74C2100FCB9AD /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDBTools.h; sourceTree = "<group>"; };
 		2630865025F74C2100FCB9AD /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LLDBTools.mm; sourceTree = "<group>"; };
-		2630865325F74C2100FCB9AD /* monkeydevutilsDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "monkeydevutilsDylib-Prefix.pch"; path = "../monkeydevutilsDylib-Prefix.pch"; sourceTree = "<group>"; };
 		2630865525F74C2100FCB9AD /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiAntiDebug.m; sourceTree = "<group>"; };
 		2630865825F74C2100FCB9AD /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
 		2630865A25F74C2100FCB9AD /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
@@ -200,7 +199,6 @@
 				2630864D25F74C2100FCB9AD /* Tools */,
 				2630865425F74C2100FCB9AD /* AntiAntiDebug */,
 				2630865725F74C2100FCB9AD /* fishhook */,
-				2630865225F74C2100FCB9AD /* Supporting Files */,
 			);
 			path = monkeydevutilsDylib;
 			sourceTree = "<group>";
@@ -253,14 +251,6 @@
 				2630865025F74C2100FCB9AD /* LLDBTools.mm */,
 			);
 			path = Tools;
-			sourceTree = "<group>";
-		};
-		2630865225F74C2100FCB9AD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2630865325F74C2100FCB9AD /* monkeydevutilsDylib-Prefix.pch */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2630865425F74C2100FCB9AD /* AntiAntiDebug */ = {
